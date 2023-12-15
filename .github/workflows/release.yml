@@ -36,7 +36,7 @@ jobs:
       - name: Set Environment Variables
         run: |
           echo "zipFile=${{ env.packageName }}-${{ steps.version.outputs.prop }}".zip >> $GITHUB_ENV
-          echo "unityPackage=${{ env.packageName }}-${{ steps.version.outputs.prop }}.unitypackage" >> $GITHUB_ENV
+          echo "unityPackage=${{ env.packageName }}.unitypackage" >> $GITHUB_ENV
         
       - name: Move files and List targets
         run: |
