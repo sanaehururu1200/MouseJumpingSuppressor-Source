@@ -1,6 +1,6 @@
 {
-  "name": "gomoru.su.mouse-jumping-suppressor",
-  "displayName": "MouseJumpingSuppressor",
+  "name": "mouse.jumping.suppressor",
+  "displayName": "MouseJumpingSuppressor, original by Gomorroth",
   "version": "1.0.0",
   "unity": "2019.4",
   "description": "",
